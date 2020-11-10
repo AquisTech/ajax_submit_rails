@@ -7,6 +7,7 @@ Supports AJAX form submission. Also submits form with file field with AJAX reque
 |ajax_submit_rails version|jquery.form version|required jQuery version|
 |---|---|---|
 |0.1.0|3.51.0-2014.06.20|v1.5 or later|
+|0.1.1|3.51.0-2014.06.20|v1.5 or later|
 
 ## Installation
 
