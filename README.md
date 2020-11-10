@@ -6,8 +6,9 @@ Supports AJAX form submission. Also submits form with file field with AJAX reque
 ## Version mapping
 |ajax_submit_rails version|jquery.form version|required jQuery version|
 |---|---|---|
-|0.1.0|3.51.0-2014.06.20|v1.5 or later|
+|0.2.0 (LATEST)|4.3.0|v1.7.2 or later|
 |0.1.1|3.51.0-2014.06.20|v1.5 or later|
+|0.1.0|3.51.0-2014.06.20|v1.5 or later|
 
 ## Installation
 
@@ -25,7 +26,7 @@ And then execute:
 
 ### Rails app with [Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html)
 
-If you're using the [asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html), 
+If you're using the [asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html),
 then you must add the following line to your `app/assets/javascripts/application.js`.
 
 ```javascript
@@ -44,7 +45,7 @@ You can also include unminified version (not recommended)
 
 Put this in your layout file.
 
-For example: 
+For example:
 
 `application.html.erb`
 
