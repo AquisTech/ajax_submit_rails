@@ -3,6 +3,11 @@
 Integrates [jquery.form](https://github.com/malsup/form) with the Rails asset pipeline. 
 Supports AJAX form submission. Also submits form with file field with AJAX request.
 
+## Version mapping
+|ajax_submit_rails version|jquery.form version|required jQuery version|
+|---|---|---|
+|0.1.0|3.51.0-2014.06.20|v1.5 or later|
+
 ## Installation
 
 Add this line to your application's Gemfile:
