@@ -1,6 +1,6 @@
 # AjaxSubmitRails
 
-Integrates [jquery.form](https://github.com/malsup/form) with the Rails asset pipeline. 
+Integrates [jquery.form](https://github.com/jquery-form/form) with the Rails asset pipeline.
 Supports AJAX form submission. Also submits form with file field with AJAX request.
 
 ## Version mapping
