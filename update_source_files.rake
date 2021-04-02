@@ -6,6 +6,7 @@ task :update_source_files do
     uri = URI("https://raw.githubusercontent.com/jquery-form/form/master/#{file}")
     data = Net::HTTP.get(uri)
     File.open("vendor/assets/javascripts/#{file.split('/').pop}", 'w') do |f|
+      data.gsub!('/src/jquery.form.js', '/jquery.form.js') if file == 'dist/jquery.form.min.js.map'
       f.write data
     end
   end
